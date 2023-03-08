@@ -17,7 +17,7 @@ class AreaTest {
     void getTriangleArea() {
         Triangle triangle = new Triangle(3, 4, 5);
         assertEquals(6, triangle.getArea());
-        
+
         Circle circle = new Circle(6.5);
         assertEquals(5.5*5.5*Math.PI, circle.getArea());
 
