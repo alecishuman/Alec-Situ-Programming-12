@@ -21,7 +21,7 @@ public class Number extends Card{
     public boolean equals(Card o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Number face1 = (Number) o;
+        Face face1 = (Face) o;
         return Objects.equals(face, face1.face) && suit == face1.suit;
     }
 

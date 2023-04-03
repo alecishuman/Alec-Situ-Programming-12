@@ -1,11 +1,11 @@
 import java.util.Objects;
 
-public class Number extends Card{
-    int face;
+public class Face extends Card {
+    String face;
     Suits suit;
 
-    public Number(int number, Suits suit) {
-        this.face = number;
+    public Face(String face, Suits suit) {
+        this.face = face;
         this.suit = suit;
     }
 
@@ -21,7 +21,7 @@ public class Number extends Card{
     public boolean equals(Card o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Number face1 = (Number) o;
+        Face face1 = (Face) o;
         return Objects.equals(face, face1.face) && suit == face1.suit;
     }
 
