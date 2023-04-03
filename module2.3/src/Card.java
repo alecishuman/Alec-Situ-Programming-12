@@ -7,4 +7,8 @@ public abstract class Card {
 
     public abstract int hashCode();
 
+    public abstract int getNumber();
+
+    public abstract Suits getSuit();
+
 }
