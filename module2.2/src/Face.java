@@ -9,6 +9,22 @@ public class Face extends Card {
         this.suit = suit;
     }
 
+    public String getFace() {
+        return face;
+    }
+
+    public void setFace(String face) {
+        this.face = face;
+    }
+
+    public Suits getSuit() {
+        return suit;
+    }
+
+    public void setSuit(Suits suit) {
+        this.suit = suit;
+    }
+
     @Override
     public String toString() {
         return "Face{" +
