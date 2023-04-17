@@ -6,5 +6,4 @@ public class Main {
         System.out.println(four.decrypt(four.encrypt(text)));
     }
 
-
 }
